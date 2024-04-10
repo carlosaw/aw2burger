@@ -263,7 +263,6 @@ footer .copyrights a:hover {
   header .container {
     display: flex;
     justify-content: space-between;
-    background-color: red;
   }
   header nav .leftside {
     display: flex;
@@ -289,7 +288,7 @@ footer .copyrights a:hover {
     justify-content: space-between;
     width: 32px;
     height: 32px;
-    border: 1px solid red;
+    border: 0;
   }
 
   .hero .container {
@@ -343,7 +342,6 @@ footer .copyrights a:hover {
   header .container {
     display: flex;
     justify-content: space-between;
-    background-color: red;
     height: 100px;
   }
   header nav .leftside {
