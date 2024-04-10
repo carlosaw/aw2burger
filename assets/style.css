@@ -258,7 +258,40 @@ footer .copyrights a:hover {
   }
   header .menu {
     display: flex;
+    cursor: pointer;
   }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+  }
+  header nav .leftside {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 175px;
+    padding-top: 50px;
+  }
+  header nav li {
+    margin: 15px 30px;
+  }
+  header nav li:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  header button {
+    background-color: transparent;
+    justify-content: space-between;
+    width: 32px;
+    height: 32px;
+    border: 1px solid red;
+  }
+
   .hero .container {
     flex-direction: column;
   }
@@ -295,11 +328,39 @@ footer .copyrights a:hover {
   footer .container {
     flex-direction: column;
     gap: 20px;
+    padding-top: 45px;
+    padding-bottom: 45px;
   }
 }
 
 @media (max-width:500px) {
   .products-grid {
     grid-template-columns: 1fr;
+  }
+  .logo a {
+    font-size: 21px;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 100px;
+  }
+  header nav .leftside {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+    margin-left: 0px;
+  }
+  .hero h1 {
+  font-size: 40px;
+  }
+  .hero p {
+    font-size: 18px;
   }
 }
